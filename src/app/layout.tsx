@@ -20,6 +20,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <script async id="toolbar-script" data-toolbar-api-key="86a73578-c526-44ed-bcc1-a21f547cd3b6" src="https://get.usetool.bar/embedded-app.js"></script>
+      </head>
       <body className={`${inter.variable} antialiased`}>
         {children}
         <Toaster />
